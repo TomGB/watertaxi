@@ -11,7 +11,7 @@ http.createServer(function (req, res) {
         res.end();
         socket.disconnect();
   });
-}).listen(8000);
+}).listen(80);
 
 
 /* server started */
